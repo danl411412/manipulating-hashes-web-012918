@@ -16,9 +16,9 @@ def first_challenge
   #your code here
   contacts.each do |name, hash|
     if name == "Freddy Mercury"
-      name.each do |keys, arr|
+      hash.each do |keys, arr|
         if keys == :favorite_icecream_flavors
-          keys.delete_if do |flavor|
+          arr.delete_if do |flavor|
             flavor == "strawberry"
           end
         end
