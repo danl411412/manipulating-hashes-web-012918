@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts.each do |key, value|
-    if key == "Freddie Mercury"
+    if key == "Freddy Mercury"
       key.each do |key, value|
         if key == :favorite_icecream_flavors
           key.delete_if do |x|
