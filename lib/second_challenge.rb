@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+  grocery_items = []
+  groceries.each do |key, value|
+    grocery_items << key[value]
+  end
+  grocery_items.flatten
 
 end
